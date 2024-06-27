@@ -26,6 +26,12 @@
 
     <ItemGroup>
       <Folder Include="Controllers\" />
+      <Folder Include="Data\" />
+      <Folder Include="Entities\" />
+      <Folder Include="Interfaces\" />
+      <Folder Include="Models\" />
+      <Folder Include="Repositories\" />
+      <Folder Include="Servives\" />
     </ItemGroup>
 
 </Project>
