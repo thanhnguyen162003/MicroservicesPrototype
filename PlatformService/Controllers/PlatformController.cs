@@ -4,6 +4,7 @@ using PlatformService.AsyncDataServices;
 using PlatformService.Entities;
 using PlatformService.Interfaces;
 using PlatformService.Models;
+using PlatformService.SyncDataServices.Http;
 
 namespace PlatformService.Controllers;
 
