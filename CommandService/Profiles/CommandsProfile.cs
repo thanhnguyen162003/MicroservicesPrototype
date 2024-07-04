@@ -1,7 +1,7 @@
 using AutoMapper;
 using CommandsService.Dtos;
 using CommandsService.Models;
-using PlatformService;
+// using PlatformService;
 
 namespace CommandsService.Profiles
 {
