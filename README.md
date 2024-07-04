@@ -4,6 +4,7 @@
 
 <img width="483" alt="image" src="https://github.com/huscongao1692003/MicroservicesPrototype/assets/72685335/856a98ee-e5db-4355-a0d0-b8a930d72ec5">
 <img width="1269" alt="image" src="https://github.com/huscongao1692003/MicroservicesPrototype/assets/72685335/3608e85d-a32f-4954-823a-30065fd5d62f">
+<img width="1122" alt="image" src="https://github.com/huscongao1692003/MicroservicesPrototype/assets/72685335/87e8fa79-ea75-4ad6-9f14-134dc82d591b">
 
 
 - DDD(Domain Driven Design)
