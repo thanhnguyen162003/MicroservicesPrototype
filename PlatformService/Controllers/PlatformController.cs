@@ -45,7 +45,7 @@ public class PlatformController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<PlatformReadModel>> CreatePlatform(PlatformReadModel platformCreateDto)
+    public async Task<ActionResult<PlatformReadModel>> CreatePlatform(PlatformReadModel platformCreateDto, CancellationToken cancellationToken)
     {
         var platformModel = _mapper.Map<Platform>(platformCreateDto);
         _platformService.CreatePlatform(platformModel);

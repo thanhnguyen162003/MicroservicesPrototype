@@ -33,7 +33,7 @@ namespace PlatformService.AsyncDataServices
                 _connection.ConnectionShutdown += RabbitMQ_ConnectionShutdown;
 
                 Console.WriteLine("--> Connected to MessageBus");
-
+                //should catch ex for closing connection
             }
             catch (Exception ex)
             {
