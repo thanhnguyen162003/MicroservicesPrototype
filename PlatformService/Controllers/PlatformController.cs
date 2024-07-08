@@ -53,7 +53,7 @@ public class PlatformController : ControllerBase
 
         var platformReadDto = _mapper.Map<PlatformReadModel>(platformModel);
 
-        // Send Sync Message
+        // Send Sync Message HTTP
         try
         {
             await _commandDataClient.SendPlatformToCommand(platformReadDto);
@@ -63,7 +63,7 @@ public class PlatformController : ControllerBase
             Console.WriteLine($"--> Could not send synchronously: {ex.Message}");
         }
         
-        //Send Async Message
+        //Send Async Message with rabbitmq
         try
         {
             var platformPublishedDto = _mapper.Map<PlatformPublishedModel>(platformReadDto);

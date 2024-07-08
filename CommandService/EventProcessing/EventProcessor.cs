@@ -36,7 +36,7 @@ namespace CommandsService.EventProcessing
         private EventType DetermineEvent(string notifcationMessage)
         {
             Console.WriteLine("--> Determining Event");
-
+            // can deserilize by NewtonJson using dynamic deserialize but it dont have specific type
             var eventType = JsonSerializer.Deserialize<GenericEventDto>(notifcationMessage);
 
             switch(eventType.Event)
