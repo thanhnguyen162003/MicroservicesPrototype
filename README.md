@@ -1,10 +1,5 @@
 # MicroservicesPrototype
 
-<img width="1504" alt="image" src="https://github.com/huscongao1692003/MicroservicesPrototype/assets/72685335/ab5d360b-10e4-4cb2-8883-7f7ea0898d44">
-<img width="1269" alt="image" src="https://github.com/huscongao1692003/MicroservicesPrototype/assets/72685335/3608e85d-a32f-4954-823a-30065fd5d62f">
-<img width="1122" alt="image" src="https://github.com/huscongao1692003/MicroservicesPrototype/assets/72685335/87e8fa79-ea75-4ad6-9f14-134dc82d591b">
-
-
 - DDD(Domain Driven Design)
 - Microservices Architechture
 - GPRC Comunication
